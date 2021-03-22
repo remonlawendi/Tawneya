@@ -1,0 +1,1777 @@
+/* ---------------------------------------------------------------
+--------------------------- General Css  Entity Start ----------------------------
+--------------------------------------------------------------- */
+body{
+	background:#ffffff;
+	direction: rtl;
+	margin: 0 ;
+	padding: 0 !important;
+}
+a{
+	text-decoration:none;
+	transition : all 0.3s ease-in-out 0s;
+}
+a:hover{
+	transition : all 0.3s ease-in-out 0s;
+	text-decoration:none;
+}
+a:focus{
+	transition : all 0.3s ease-in-out 0s;
+	text-decoration:none;
+    color:#000;
+}
+ul{
+   list-style-type:none;
+   padding-left:0px !important;
+}
+.go-top.show { 
+	bottom: 20px; 
+}
+.go-top:hover {
+  background-color: #e67e22;
+  color: #FFFFFF;
+}
+.row {
+	   margin-left:  0px; 
+     margin-right: 0px;
+}
+/* ---------------------------------------------------------------
+--------------------------- General Css  Entity End ----------------------------
+--------------------------------------------------------------- */
+
+/* --------------------------- 1-Home-Page customization Start ---------------------- */
+/* Contact Info Block Start*/
+.contact-info {
+	border-bottom: 0.5px solid #CCCCCC;
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+	align-items: center;
+}
+.contact-info .country-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: middle;
+}
+.contact-info .country-block img{
+	width:24px ;
+	height: 24px;
+
+}
+.contact-info .country-name {
+	color: #707070;	
+	font-family:   Tajawal;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 2;
+	margin-right: 8px;
+}
+
+.contact-info .contact-data {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.contact-info .contact-data .block {
+	
+}
+.contact-info .contact-data span {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #707070;
+	line-height: 2;
+}
+/* Contact Info Block End*/
+
+
+/* Site Logo Block Start*/
+.site-logo-content {
+	margin: 12.5px 0
+}
+.box-data {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+.box-content {
+	width: 170px;
+	height: 85px;
+	border: 1px solid #EEEEEE;
+	border-radius: 5px;
+	padding: 5px;
+}
+.box-mission {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.box-mission-result{
+	font: normal normal normal 14px Tajawal;
+	color: #CCCCCC;
+	padding: 3px;
+}
+.box-mission span{
+	font-family: 'Tajawal', sans-serif;
+}
+.box-mission-status{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.box-mission-result{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pray-time {
+	color: #2B8583;
+	opacity: 1;
+	font-size: larger;
+}
+.btns-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.btn-one , .btn-two {
+margin-right: 10px ;
+border: none;
+}
+
+.btns-block .btn-one a,
+.btns-block .btn-two a{
+	border-radius: 10px;
+	padding: 15px 41px;
+	text-decoration: none;
+	color: #fff;
+	font: normal normal normal 15px Tajawal;
+	color: #FFFFFF;
+}
+.btn-one a {
+	background-color: #3F8583;
+}
+.btn-two a{
+	background-color: #E8CA67;
+}
+.btns-block .btn-one a:hover {
+	background-color: #E8CA67;
+}
+.btns-block .btn-two a:hover {
+	background-color: #3F8583;
+}
+/* Site Logo Block Start*/
+
+
+/* Site NavBar Block Start*/
+.main-navbar { 
+	background-color: #2B8583;
+	position: relative;
+}
+.navbar-elemnts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.navbar-elemnts  .nav-link {
+	text-decoration: none ;
+	font-family:  Tajawal;
+	font-size: 15px;
+	font-weight: 500px;
+	color: #fff !important;
+}
+.navbar-elemnts  .nav-link:hover{
+	color: #E8CA67 !important;
+}
+.navbar-elemnts  .active{
+	color: #E8CA67 !important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	margin-top: 7px !important;
+  text-align: start;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a {
+	font-family: Tajawal ;
+	font-size: 15px;
+	font-weight: 500;
+	color: #808080;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a:hover {
+	color: #E8CA67;
+	background-color: #fff;
+}
+/* Site NavBar Block End */
+
+/* Main Slider Block Start */
+.carousel-caption {
+	bottom: 225px;   
+	padding: 0 280px;
+	min-height: 185px;
+}
+body .carousel-control-prev-icon, body .carousel-indicators li, body .carousel-control-next-icon {
+	background-color: #ffffff !important;
+}
+.carousel-caption .slider-title {
+	font-family: Tajawal;
+	font-size: 44px ;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.carousel-caption  .slider-content {
+	display: block;
+	font-family: Tajawal;
+	font-size: 18px ;
+	font-weight: 400;
+	line-height: 35px;
+	color: #F9F9F9;
+	margin-bottom: 35px
+}
+ .read-more {
+	width: 140px !important;
+	height: 44px !important;
+	color: #fff;
+	background:#2B8583;
+	padding: 17px 15px;
+	border-radius: 5px;
+	vertical-align: middle;
+}
+.read-more:hover{
+	background-color: #E8CA67;
+}
+.read-more span {
+	font-family:Tajawal ;
+	font-size: 15px;
+	font-weight: 500;
+color: #FFFFFF;
+margin-left: 25px;
+}
+.carousel-indicators li {
+	width: 14px;
+	height: 14px;
+	border-radius: 100%;
+	background-color:#FFFFFF !important;
+}
+.carousel-indicators .active {
+	background-color:#2B8583 !important;
+}
+/* Main Slider Block End */
+
+/* About Us Block start*/
+.who-we {
+	display: flex;
+	flex-direction: row;
+	background-color: #FCFFFF;
+}
+.who-we-img img{
+		margin: 30px -34px 30px 0;
+    border-radius: 10px;
+    opacity: 1;
+}
+.who-we-content {
+	margin-top: 90px;
+	margin-left: -355px;
+	padding: ;
+	width: 762px;
+	height: 423px;
+	background-color: #FFFFFF ;
+	border-radius: 10px;
+	padding: 45px 35px 65px 10px ;
+	
+}
+.who-we-content .title{
+	font-family:Tajawal ;
+	font-size: 32px;
+	font-weight: 700;
+	color: #3D3D3D;
+	margin-bottom: 25px;
+}
+.who-we-content p{
+	font-family:Tajawal ;
+	font-size: 17px;
+	font-weight: 400;
+	color: #707070;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+.who-we-content  .read-more {
+	margin-top: 50px;
+}
+.read-more a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none ;
+	color: #FFFFFF;
+}
+/* About Us Block start*/
+
+/* Activity Block Start */
+.activity {
+	min-height: 603px;
+	background-color: #F0FCFC;
+	border: 1px solid #EEEEEE;
+}
+.activity-title {
+	text-align: center;
+	font: normal normal bold 32px/44px Tajawal;
+letter-spacing: 0px;
+color: #3D3D3D;
+margin: 60px 0
+}
+.col-md-4{
+  display: inline-block;
+  margin-left:-10px;
+}
+.col-md-4 img{
+  width:100%;
+  height:auto;
+}
+  
+body .carousel-control-prev-icon,
+body .carousel-indicators li,
+body .carousel-control-next-icon{
+  background-color:#000;
+}
+
+span.carousel-control-prev-icon {
+ position: relative;
+ bottom: 40px;
+ right: 40px;
+}
+
+span.carousel-control-next-icon {
+ position: relative;
+ bottom: 40px;
+}
+.carousel-time {
+	background-color: #F0FCFC;
+	padding: 7px 5px;
+	border-radius: 5px 0px 0px 5px;
+}
+.carousel-time span {
+	font: normal normal normal 16px Tajawal;
+	color: #808080 	;
+}
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: -5px;
+	padding: 1.25rem;
+}
+.carousel-control-next , .carousel-control-prev {
+	margin-top: -100px;
+}
+.carousel-control-next {
+	margin-left: 77px;
+}
+.carousel-control-prev {
+	margin-right: 62px;
+}
+.link-info .info-title {
+	margin-top: 30px;
+	font-family:Tajawal ;
+	font-size: 22px;
+	font-weight: 500;
+	color: #3D3D3D;
+}
+.link-info .info-content {
+	font-family:Tajawal ;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #808080;
+}
+/* Activity Block end */
+
+/* partners Block Start */
+.partners {
+	background-color: #FCFFFF;
+	padding-bottom: 55px;
+	text-align: center;
+}
+.partners-title  {
+	margin: 60px 0;
+	font: normal normal bold 32px Tajawal;
+	letter-spacing: 0px;
+	color: #3D3D3D;
+	text-align: center;
+	
+}
+.partner-box-content {
+	width: 100%;
+	height: 250px;
+	border: 1px solid #EEEEEE;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center !important;
+
+}
+.partner-box-content img{
+	margin: auto;
+}
+/* partners Block End */
+
+/* Footer Block Start */
+.footer {
+	background-color: #FCFFFF;
+	position: relative;
+}
+.opinion-box {
+position: absolute;
+z-index: 1;
+padding: 29px 18px 0 0 ;
+width: 372px;
+height: 363px;
+background: #FCFFFF 0% 0% no-repeat padding-box;
+border: 5px solid #2B8583;
+outline: 10px solid #fff;
+border-radius: 5px;
+box-shadow: 0px 3px 6px #0000000F;
+}
+.opinion-box p {
+font: normal normal bold 22px Tajawal;
+letter-spacing: 0px;
+color: #3D3D3D;
+}
+.opinion-box span {
+	font: normal normal normal 18px/36px Tajawal;
+	color: #707070;
+}
+.opinion-box label {
+	font: normal normal normal 18px Tajawal;
+color: #3D3D3D;
+margin-right: 16px;
+position: relative;
+line-height: 35px;
+}
+form {
+	margin: 19px 0 19px 0;
+}
+.label-check {
+	position: absolute !important;
+	top: 8px;
+    left: 320px;
+}
+.opinion-btn{
+	width: 315px;
+height: 44px;
+background: #2B8583 0% 0% no-repeat padding-box;
+border-radius: 5px;
+color: #FFFFFF;
+font: normal normal normal 15px Tajawal;
+}
+.opinion-btn:hover{
+color: #fff;
+}
+.email-input {
+	padding-right: 10px;
+}
+.register-mail {
+	padding: 25px 50px 0 0;
+}
+.register-mail p {
+text-align: right;
+font: normal normal bold 22px Tajawal;
+color: #3D3D3D;
+}
+.register-mail span {
+	font: normal normal normal 18px Tajawal;
+color: #707070;
+	}
+	.register-mail form {
+		display: flex;
+		flex-direction: row;
+	}
+.register-mail form input {
+width: 278px !important;
+height: 44px;
+background: #FCFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CCCCCC80;
+border-radius: 0px 10px 10px 0px;
+margin-left: -2px;
+}
+.register-mail form .register-btn {
+	width: 92px !important;
+height: 44px;
+background: #2B8583 0% 0% no-repeat padding-box;
+border: 1px solid #CCCCCC80;
+border-radius: 10px 0px 0px 10px;
+font: normal normal normal 14px Tajawal;
+color: #FFFFFF;
+}
+.footer-part-two {
+	
+	min-height: 279px;
+background: #365C5B 0% 0% no-repeat padding-box;
+padding: 25px 50px 0 0;
+}
+.important-links {
+	margin-right: 82px;
+}
+.important-links a , .important-links-two a {
+	text-decoration: none;
+} 
+.important-links a span, .important-links-two a span {
+	font: normal normal normal 16px Tajawal;
+letter-spacing: 0px;
+color: #EEEEEE;
+padding : 5px 
+}
+.important-links p {
+	font: normal normal bold 22px/30px Tajawal;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin-right: 37px;
+}
+.important-links-two {
+	margin: 28px -50px 0 0;
+}
+.call-contact p {
+	margin-right: 37px;
+	font: normal normal bold 22px/30px Tajawal;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+.call-contact span {
+	font: normal normal normal 16px/30px Tajawal;
+letter-spacing: 0px;
+color: #EEEEEE;
+}
+.footer-part-three{
+	height: 44px;
+	background-color: #365C5B;
+}
+.footer ul {
+	line-height: 35px;
+}
+.copy-right-box {
+	background: #2B8583 0% 0% no-repeat padding-box;
+border-radius: 5px 5px 0px 0px;
+height: 44px;
+text-align: center;
+vertical-align: middle;
+padding-top: 10px;
+}
+.copy-right-box span{
+	font: normal normal normal 12px/17px Tajawal;
+color: #FCFFFF;
+}
+.copy-right-box a span{ 
+	text-decoration: underline;
+font: normal normal medium 12px/17px Tajawal;
+letter-spacing: 0px;
+color: #3BBAB8;
+}
+/* Footer  Block End */
+
+/* Social Media  Block End */
+.social-media {
+	position: absolute;
+	top: 239px;
+	right: -40px;
+	z-index: 1;
+}
+.social-media ul {
+	position: fixed;
+}
+
+/* Social Media  Block End */
+/* --------------------------- 1-Home-Page customization End  ---------------------- */
+
+
+/* --------------------------- 2-About Us customization Start ---------------------- */
+.about-us-title {
+	width: 100%;
+	height: 146px;
+	background: transparent url('/images/image-slider.png') 10% 10% no-repeat padding-box;
+	background-size: cover;
+	text-align: center;
+	padding-top: 30px;
+}
+.main-header {
+	position: relative;
+	text-align: center;
+}
+.main-header .main-header-img {
+	width: 100%;
+	height: 228px;
+	position: relative;
+}
+.main-header .overlay {
+	width: 100%;
+	height: 228px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.header-details {
+	position: absolute;
+	top: 65px;
+	left: 200px;
+}
+.header-details  .header-title {
+	color: #FFFFFF;
+	font-family: Tajawal;
+	font-size:32px ;
+	font-weight: 700 ;
+}
+.header-details  .header-content {
+	color: #FFFFFF;
+	font-family: Tajawal;
+	font-size:15px ;
+	font-weight: 400 ;
+}
+.header-details  .header-content .yellow-word {
+	color: #E8CA67;
+}
+
+.about-us-content .box-contents .row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.about-us-content {
+	padding: 60px 0 0 0;
+	background-color: #FCFFFF;
+}
+.about-us-content .vision ,
+.about-us-content .messege,
+.about-us-content .goals
+{
+min-height: 321px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+margin-bottom: 30px;
+padding: 20px;
+}
+.vision:hover ,
+.messege:hover ,
+.goals:hover{
+	background-color: #F2FCFC;
+}
+.about-us-content img {
+	width: 68px;
+	height: 68px;
+	margin: 12px 0;
+}
+.about-us-content .title {
+	font-family:Tajawal ;
+	font-size:32px ;
+	font-weight: 700;
+	color: #3D3D3D;
+}
+.about-us-content p {
+	font-family:Tajawal ;
+	font-size:18px ;
+	font-weight: 400;
+	color: #707070;
+}
+.about-us-content .goals ul {
+	padding: 0;
+}
+/* --------------------------- 2-About Us customization End ---------------------- */
+
+/* --------------------------- 3-Anuall Reports and 05-Financial-Statements customization Start ---------------------- */
+.reports {
+	background-color: #FCFFFF;
+}
+.report-of-year {
+	width: 100%;
+	height: 224px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin-top: 30px;
+	padding: 15px
+}
+.report-of-year > img {
+	width: 48px;
+	height: 48px;
+	margin-bottom: 20px;
+}
+.report-of-year .report-year {
+	font-family: Tajawal;
+	font-size: 18px ;
+	font-weight: 500;
+	color: #3D3D3D;
+	margin-bottom: 10px;
+
+}
+.report-of-year p span {
+	font-family: Tajawal;
+	font-size: 14px ;
+	font-weight: 500;
+	color: #808080;
+}
+.report-of-year .download-btn {
+	width: 140px;
+	height: 44px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background: #2B8583;
+	color: #fff;
+	border-radius: 5px;
+}
+.report-of-year .download-btn:hover{
+	background-color: #E8CA67;
+}
+.report-of-year .download-btn:focus {
+	background-color: #E8CA67;
+}
+.report-of-year a img {
+	width: 14px;
+	height: 14px;
+}
+.report-of-year a span {
+	font-family : Tajawal;
+	font-size: 15px;
+	font-weight: 500;
+}
+/* --------------------------- 3-Anuall Reports and 05-Financial-Statements customization End ---------------------- */
+
+/* --------------------------- 4-Regulations policies customization End ---------------------- */
+.polices {
+	padding:61px 0 80px 0;
+	background-color: #FCFFFF;
+
+}
+.polices  .title-content	{
+	margin-bottom: 33px;
+}
+.polices .nav {
+	justify-content: space-around;
+
+}
+.pills-tabContent .nav-link a {
+		color: #CCCCCC;
+}
+.title-content .nav-link {
+	width: 140px;
+	text-align: center ;
+height: 44px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+font: normal normal medium 18px Tajawal;
+color: #CCCCCC;
+}
+.title-content .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+
+	width: 140px;
+	height: 44px;
+	background: #2B8583 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+}
+.tab-pane  .nav-pills{
+	border-left:  1px solid #CCCCCC;
+	border-top:  1px solid #ccc;
+	border-right:  1px solid #ccc;
+	border-radius: 5px;
+}
+.tab-pane .nav .nav-link {
+border-bottom : 1px solid #ccc;
+border-radius: 0px;
+font: normal normal medium 18px Tajawal;
+color: #ccc;
+padding: 12px
+}
+.tab-pane .nav-pills {
+	padding: 0;
+}
+.tab-content .nav .active {
+	background-color: #2B8583;
+	color: #fff
+}
+.tab-pane .title {
+	margin-top: 14px;
+	margin-bottom: 18px;
+	font-family:Tajawal ;
+	font-size: 32px;
+	font-weight: 700;
+color: #3D3D3D;
+}
+.tab-pane p {
+	font-family:Tajawal ;
+	font-size: 18px;
+	font-weight: 400;
+	margin-right: 20px !important;
+	color: #707070;
+	line-height: 30px;
+}
+/* --------------------------- 4-Regulations policies customization End ---------------------- */
+
+
+/* --------------------------- 06-News policies customization Start ---------------------- */
+
+
+/* --------------------------- 06-News policies customization Start ---------------------- */
+.news-content {
+	padding: 50px 0;
+	background-color: #FCFFFF;
+}
+.col-lg-4 .news-box {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.news-box img {
+	width: 100%;
+	position: relative;
+}
+.news-box p {
+	font-family:Tajawal ;
+	font-size:  22px;
+	font-weight: 500;
+	color: #3D3D3D;
+	margin-top: 20px;
+}
+.news-box span {
+	font-family:Tajawal ;
+	font-size:  18px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #808080;
+}
+.news-date {
+	position: absolute;
+	width: 116px;
+height: 40px;
+background: #F0FCFC 0% 0% no-repeat padding-box;
+border-radius: 5px 0px 0px 5px;
+	top: 20px;
+	text-align: center;
+	padding: 7px 0;
+}
+.news-date span {
+	font: normal normal normal 16px/22px Tajawal;
+letter-spacing: 0px;
+color: #808080;
+
+}
+/* --------------------------- 07-News Details customization Start ---------------------- */
+.news-details {
+	background-color: #FCFFFF;
+}
+.news-details-img {
+	
+}
+.news-details-img img{
+	width: 100% !important;
+		margin: 30px -34px 30px 0;
+    border-radius: 10px;
+    opacity: 1;
+}
+.news-details-content {
+	margin-top: 72px;
+	margin-right: -117px;
+	padding: ;
+	height: 452px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	padding: 45px 35px 65px 116px;
+}
+
+
+.news-details .title{
+	font-family:Tajawal ;
+	font-size:32px ;
+	font-weight: 700;
+
+color: #3D3D3D;
+}
+.news-details-content p{
+	font-family:Tajawal ;
+	font-size:17px ;
+	font-weight: 700;
+	color: #707070;
+	line-height: 30px;
+}
+.news-social-media {
+	width: 316px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CCCCCC;
+border-radius: 10px;
+padding: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 55px;
+}
+.news-social-media span {
+	font: normal normal bold 20px/29px Tajawal;
+color: #3D3D3D;
+}
+/* --------------------------- 07-News Details customization Start ---------------------- */
+
+
+/* --------------------------- 08-Service customization Start ---------------------- */
+.service-content {
+	padding-top: 50px;
+	background-color: #FCFFFF;
+}
+.service-content-boxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.sercive-content-box {
+	width: 360px;
+height: 421px;
+background: transparent url('img/bg.png') 0% 0% no-repeat padding-box;
+border: 1px solid #EEEEEE;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 20px;
+}
+.sercive-content-box img {
+	width: 340px;
+	height: 284px;
+	border-radius: 10px;
+}
+.sercive-content-box p {
+	font-family:Tajawal ;
+	font-size:22px ;
+	font-weight: 500;
+	margin-top: 20px;
+color: #3D3D3D;
+}
+.sercive-content-box span {
+	font-family:Tajawal ;
+	font-size:18px ;
+	font-weight: 500;
+line-height: 25px;
+margin-bottom: 6px;
+margin-top: 6px;
+color: #808080;
+}
+.pagination-section {
+	background-color: #FCFFFF;
+
+}
+.page-number {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+    padding: 0px 22px;
+}
+
+.pagination li a {
+font: normal normal normal Tajawal;
+color: #CCCCCC;
+margin: 0 10px ;
+border-radius: 5px;
+}
+.pagination li a:hover{
+background: #2B8583 0% 0% no-repeat padding-box;
+color: #fff;
+}
+.page-numbers {
+	background-color: #FCFFFF;
+}
+/* --------------------------- 08-Service customization End ---------------------- */
+
+/* --------------------------- 09-About Service customization Start ---------------------- */
+.about-services {
+	background-color: #FCFFFF;
+	padding-top: 50px;
+}
+.row .about-services-img {
+	/* width: 100%; */
+	position: relative;
+	
+}
+.about-services-img img {
+	width: 100%;
+	background-size: cover;
+}
+.services-social-media {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 92px;
+	height: 316px;
+	background: #FFFFFF ;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	justify-content: space-between;
+	padding: 15px;
+	top: 50px;
+	left: -20px;
+	align-items: center;
+}
+.services-social-media p {
+	font-family:Tajawal ;
+	font-size:20px ;
+	font-weight: 700;
+
+color: #3D3D3D;
+}
+.services-social-media img{
+	width: 60px;
+	height: 60px;
+}
+.about-service-content {
+	width: 970px;
+height: 226px;
+background: #FFFFFF;
+border-radius: 10px;
+padding: 25px 25px 0 25px;
+margin-top:-50px;
+margin-bottom:50px
+}
+.about-service-content p {
+	font-family:Tajawal ;
+	font-size:32px ;
+	font-weight: 700;
+letter-spacing: 0px;
+color: #3D3D3D;
+}
+.about-service-content span {
+	font-family:Tajawal ;
+	font-size:18px ;
+	font-weight: 400;
+letter-spacing: 0px;
+color: #707070;
+line-height: 30px;
+}
+
+/* --------------------------- 09-About Service customization End ---------------------- */
+
+/* --------------------------- 11-Details-Events-Activities customization Start ---------------------- */
+.event-details {
+	background-color: #FCFFFF;
+}
+.event-details-img img{
+		margin: 30px -34px 30px 0;
+    border-radius: 10px;
+    width: 100%;
+}
+.event-details-content {
+	padding: 20px 20px 0  0;
+	margin-top: 72px;
+	margin-right: -105px;
+	background: #FFFFFF ;
+	border-radius: 10px;
+}
+.event-details-content .title{
+	width: 100%;
+	font-family:Tajawal ;
+	font-size:32px ;
+	font-weight: 700;
+color: #3D3D3D;
+
+}
+.event-details-content .content{
+	width: 100%;
+	font-family:Tajawal ;
+	font-size:18px ;
+	font-weight: 400;
+	line-height: 30px;
+	color: #707070;
+	padding-left: 132px;
+}
+.vedio-section {
+	background-color: #FCFFFF;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.vedio-title {
+	max-width: 100%;
+	padding: 50px 0;
+}
+.vedio-title p {
+	font-family:Tajawal ;
+	font-size:32px ;
+	font-weight: 700;
+	color: #3D3D3D;
+}
+.vedio-title span {
+	font-family:Tajawal ;
+	font-size:18px ;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: #707070;
+}
+iframe {
+	width: 100%;
+		background: transparent url('img/Image2.png') 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 10px;
+	border : none;
+	border-radius: 10px;
+}
+/* --------------------------- 11-Details-Events-Activities customization End ---------------------- */
+
+/* --------------------------- 12-Album customization Start ---------------------- */
+.album-section {
+	background-color: #FCFFFF;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.album-boxes {
+	margin: 0 !important;
+}
+.album {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.album-boxes .album img {
+	width: 100%;
+height: 304px;
+background: transparent url('img/image.png') 0% 0% no-repeat padding-box;
+border-radius: 10px;
+position: relative;
+}
+.album-img-icon {
+	position: absolute;
+	width: 82px;
+height: 45px;
+background: #2B8583 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 5px;
+top: 20px;
+right: 35px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.album-img-icon img {
+	width: 32px !important;
+height: 32px !important;
+}
+.album-title {
+	position: absolute;
+	bottom: 30px;
+	right: 35px;
+}
+.album-title p{
+	font: normal normal normal 22px/30px Tajawal;
+color: #FFFFFF;
+}
+.album-img-icon span {
+	font: normal normal bold 20px/29px Tajawal;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+/* --------------------------- 12-Album customization End ---------------------- */
+/* --------------------------- 13-Album Details customization Start ---------------------- */
+.album {
+	position: relative;
+}
+.image-overlay{
+	/* display: none; */
+    width: 85% !important;
+    height: 280px;
+    position: absolute;
+    background-color: rgba(63, 133, 131, 0.7);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    top: 21px;
+    right: 26px;
+    z-index: 10;
+    text-align: center;
+
+}
+.image-overlay:hover{
+	display: block;
+}
+.image-overlay img {
+	width: 62px !important;
+	height: 62px !important;
+	margin-top: 103px;
+}
+/* --------------------------- 13-Album Details customization Start ---------------------- */
+/* --------------------------- 17-contact us customization Start ---------------------- */
+.contact-us-section {
+	background-color: #FCFFFF;
+}
+.map-location {
+	width: 100%;
+	height: 322px;
+	border: 1px solid #EEEEEE;
+border-radius: 10px;
+margin: 65px 0 40px 0
+}
+.contact-information {
+
+}
+.send-a-messege {
+	width: 100%;
+	height: 501px;
+	background-color: #F2FCFC;
+	border: 1px solid #EEEEEE;
+border-radius: 10px;
+margin-bottom: 50px
+}
+.send-a-messege  p {
+	margin-right: 15px;
+}
+.send-a-messege  p,
+.contact-information p {
+	font-family: Tajawal;
+	font-size: 32px;
+	font-weight: 700;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.submit-btn {
+	margin-right: 12px;
+}
+.call-us div{
+	margin: 15px 0;
+}
+.call-us img {
+	width: 25px;
+}
+.call-us span {
+	font-family:Tajawal ;
+	font-size: 18px;
+	font-weight: 500;
+	color: #808080;
+}
+.social-icons {
+	margin-top: 20px;
+}
+.social-icons img {
+	width: 32px;
+height: 32px;
+margin-left: 10px;
+}
+/* --------------------------- 17-contact us customization Start ---------------------- */
+
+/* --------------------------- 19-Donation customization Start ---------------------- */
+.donation {
+	background-color: #FCFFFF;
+	width: 100%;
+min-height: 500px;
+padding: 50px 0 0 0;
+}
+.donation-sheet {
+	width: 100%;
+height: 575px;
+background-color: #F2FCFC;
+border: 1px solid #EEEEEE;
+border-radius: 10px;
+padding-top: 16px;
+text-align: center;
+}
+.donation-sheet p	{
+	font-family: Tajawal;
+	font-size: 32px;
+	font-weight: 700;
+color: #3D3D3D;
+margin-bottom: 20px;
+}
+
+.form-control {
+width: 95%;
+height: 44px;
+border: 1px solid #CCCCCC80;
+border-radius: 10px;
+margin: 26px auto;
+}
+.submit-btn {
+	width: 95%;
+height: 44px;
+background: #2B8583 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 5px;
+opacity: 1;
+color: #fff;
+}
+.donation button:hover {
+	background: #2B8583 0% 0% no-repeat padding-box;
+	color: #fff;
+}
+
+::placeholder {
+font: normal normal normal 16px Tajawal !important;
+color: #CCCCCC !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font: normal normal normal 16px Tajawal !important;
+	color: #CCCCCC !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	font: normal normal normal 16px Tajawal !important;
+	color: #CCCCCC !important;
+}
+select {
+	font: normal normal normal 16px Tajawal;
+letter-spacing: 0px;
+color: #3D3D3D;
+padding: 0 0 0 20px !important;
+}
+/* --------------------------- 19-Donation customization End ---------------------- */
+
+/* --------------------------- 20-Donation customization Start ---------------------- */
+/* --------------------------- 20-Donation customization End ---------------------- */
+/* Media Query for responsive design  */
+
+@media (max-width: 1199.98px) {
+.carousel-caption {
+    bottom: 225px;
+    padding: 0 82px;
+    min-height: 185px;
+}
+	.navbar-nav .nav-link {
+		 font: normal normal normal 10px Tajawal;
+		 display: contents !important;
+			 display: contents;
+	 
+	 }
+	 .navbar-elemnts {
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: space-around;
+		 margin: 5px 0;
+	 }
+	 .important-links {
+		 margin-right: 50px;
+		 width: auto;
+ }
+ .important-links-two {
+	 margin: 203px -244px 0 0px;
+ }
+ .register-mail {
+	 margin-right: 367px;
+ }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+	.logo-block {
+		text-align: center;
+	}
+	.btns-block {
+		margin-bottom: 10px;
+	}
+	.navbar-elemnts {
+		display: flex;
+    flex-direction: column;
+	}
+	.nav-link {
+		border-bottom: 1px solid #fff;
+	}
+	.carousel-caption {
+		padding: 0;
+		bottom: 140px;
+	}
+	.who-we-img {
+		text-align: center;
+	}
+	.who-we-img img {
+		margin: 30px 0px 30px 0;
+	}
+	.who-we-content {
+		margin-top: 0;
+		padding: 0 35px 0 10px;
+		height: auto;
+	}
+	.activity {
+		min-height: auto;
+	} 
+	.partner-box {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		margin-right: 0;
+	}
+	.partner-box-content {
+		margin-right: 0;
+    padding: 0 5px;
+	}
+	.partner-box-content img {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.partner-box .block-three{ 
+		margin-right: 170px;
+		padding: 0 54px;
+    margin-top: 20px;
+	} 
+	.partners-title {
+		padding: 25px 0 25px 0;
+	}
+	.opinion-box {
+		position: relative;
+	}
+	.register-mail {
+    margin-right: -33px;
+}
+	.footer-part-two {
+		display: flex;
+		flex-direction: row;
+
+	}
+	.important-links-two {
+		margin: 203px -359px 0 0px;
+	}
+	.important-links-two  a span , .important-links  a span {
+		font: normal normal normal 14px Tajawal
+	}
+	.important-links {
+		margin-right:0;
+	}
+	.call-contact span	{
+		font: normal normal normal 14px Tajawal
+	}
+ }
+ /* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+ 
+ /* Media Query For Mobile Screen  */
+@media (max-width: 575.98px) { 
+	/* Contact Info Block */
+	.country-block {
+	text-align: center;
+	}
+	.contact-info .contact-data {
+		margin-bottom: 5px;
+	}
+	.contact-info .contact-data span {
+		font: normal normal normal 12px Roboto;
+	}
+
+	/* Contact Info Block */
+
+	/* Site Logo Block Start */
+
+	.site-logo-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.logo-block {
+		margin : 10px 0;
+	}
+	.btns-block {
+		margin : 15px 0;
+		justify-content: space-around;
+	}
+
+	/* Site Logo Block End */
+
+	/* navbar Block Start */
+	.navbar-elemnts {
+		flex-direction: column;
+		
+	} 
+
+	.nav-item .nav-link .last-link {
+		border: 0 ;
+	}
+		/* navbar Block End */
+
+		/* Slider Block Start */
+	.carousel-content {
+		height: 400px;
+	}
+	.carousel-info p {
+		font: normal normal bold 24px Tajawal;
+		color: #FFFFFF;}
+		.carousel-info  span {
+			font: normal normal normal 14px Tajawal;
+		}
+		.carousel-info .read-more {
+			width: 140px;
+			height: 44px;
+			background:#2B8583;
+			margin: 10px 40px 0 0 ;
+			border-radius: 5px;
+		}
+		.carousel-caption {
+
+		}
+		.carousel-caption .slider-title {
+	
+		}
+		.carousel-caption  .slider-content {
+	;
+			font: normal normal normal 12px Tajawal;
+			color: #F9F9F9;
+			
+		}
+		/* Slider Block End */
+		
+		/* Who We  Block Start */
+	.who-we {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.who-we-img img{
+		height: 270px;
+		background-size: cover;
+		width: 95%;
+		padding: 10px 0;
+			margin: 30px  auto;
+			border-radius: 10px;
+			opacity: 1;
+	}
+	.who-we-content {
+		width: 95%;
+    margin: 0 auto 10px ;
+    min-height: 260px;
+    padding: 15px;
+
+	}
+	.who-we-content p {
+		font : normal normal normal 14px Tajawal;
+		line-height: 30px;
+	}
+	/* Who We  Block Start */
+
+	 /* Activity Carousel Start */
+	.carousel-arrow {
+		display: none;
+	}
+	/* Activity Carousel Start */
+
+		/* Partner Block start*/
+	.partners {
+		text-align: center;
+	}
+	.partners-title {
+		padding: 0;
+		margin: 15px 0;
+	}
+	.partner-box-content {
+		width: 95%;
+		margin : 15px 0;
+	}
+
+	.partner-box .block-three {
+		margin: 0;
+	}
+	.partner-box-content .block-three  img {
+		width: 225px;
+		margin-right: 0px;
+	}
+	/* Partner Block End*/
+
+	/* footer  Block Start */
+	.opinion-box {
+		position: relative;
+		margin-right: -28px;
+	}
+	.register-mail {
+    
+			padding: 25px 17px 0 0;
+			margin-right: 0px;
+	}
+
+.register-btn {
+	font: normal normal normal 12px Tajawal !important;
+}
+.important-links {
+	margin-right: 0;
+}
+.important-links-two {
+	 margin: -35px 0px 0 0;
+	}
+	.copy-right-box span {
+    font: normal normal normal 10px Tajawal;
+    color: #FCFFFF;
+}
+	.social-media {
+		top: 500px;
+	}
+/* --------------------------- 2-About Us customization Start ---------------------- */
+.header-details {
+	position: absolute;
+	top: 65px;
+	left: 0;
+}
+/* --------------------------- 2-About Us customization End ---------------------- */
+/* --------------------------- 3-Anuall Reports and 05-Financial-Statements customization Start ---------------------- */
+.page-number {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+    padding: 0px 10px;
+}
+/* --------------------------- 3-Anuall Reports and 05-Financial-Statements customization End ---------------------- */
+/* --------------------------- 4-Regulations policies customization Start ---------------------- */
+.polices {
+	padding: 61px 0 50px 0;
+	background-color: #FCFFFF;
+}
+.title-content .nav-link {
+	width: 87px;
+	text-align: center ;
+height: 44px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+font: normal normal medium 18px Tajawal;
+color: #CCCCCC;
+}
+.tab-pane .title {
+	margin-right: 0px;
+	font: normal normal bold 25px Tajawal;
+color: #3D3D3D;
+}
+.tab-pane p {
+	margin-right: 0;
+	font: normal normal normal 14px Tajawal;
+
+	color: #707070;
+}
+.tab-content > .tab-pane {
+    margin-top: 40px;
+}
+/* --------------------------- 4-Regulations policies customization End ---------------------- */
+	/* --------------------------- 07-News Details customization Start ---------------------- */
+	.news-details-img img {
+    margin: 0;
+    border-radius: 10px;
+		padding-top: 40px;
+
+	}
+	.news-details-content {
+		padding: 0 138px 65px 20px;
+
+	}	
+	
+	.news-social-media {
+		position: relative;
+    margin-right: 9px;
+    margin-top: 10px;
+	}	
+	/* --------------------------- 07-News Details customization end ---------------------- */
+	.services-social-media {
+		position: relative;
+	}
+	/* --------------------------- 08-Service customization End ---------------------- */
+.service-content {
+	max-width: 100%;
+}
+
+	/* --------------------------- 08-Service customization End ---------------------- */
+
+	/* --------------------------- 09-About Service customization Start ---------------------- */
+	.about-services-img img {
+		width: 100%;
+		background-size: cover;		
+    height: 200px;
+	}
+	.services-social-media {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		height: 92px;
+		width:  316px;
+	margin: 50px 0;
+		justify-content: space-between;
+		padding: 15px;
+		top: 0;
+		left: 0;
+		align-items: center;
+	}
+	.services-social-media img{
+		width: 60px;
+		height: 60px;
+	}
+	.about-service-content {
+		width: 970px;
+    height: 335px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 25px 25px 0 25px;
+    margin-top: -50px;
+    
+}
+	/* --------------------------- 09-About Service customization End ---------------------- */
+
+	/* --------------------------- 11-Details-Events-Activities customization Start ---------------------- */
+	.event-details-img img {
+    margin: 30px 0 0 0;
+    border-radius: 10px;
+		width: 100%;
+	}
+		.event-details-content {
+			margin-top: 20px;
+			margin-right: 0px;
+			background: #FFFFFF 0% 0% no-repeat padding-box;
+			border-radius: 10px;
+			padding: 0 20px;
+		}
+		.event-details-content .content{
+	
+			padding-left: 0;
+		}
+			.vedio-title {
+				max-width: 100%;
+				padding: 30px 0;
+		}
+	/* --------------------------- 11-Details-Events-Activities customization End ---------------------- */
+	.contact-information {
+		margin-bottom: 30px;
+    margin-top: -60px;
+	}
+		/* --------------------------- Modal PopUP Start ---------------------- */
+		.modal-content {
+			position: relative;
+			width: 356px !important;
+			height: 373px !important;
+			margin-top: 220px;
+	}
+}	
+/* // Large devices (desktops, less than 1200px) */
+
+/* Media Query for responsive design  */
+
+	/* --------------------------- Modal PopUP Start ---------------------- */
+	.modal-content {
+		position: relative;
+		width: 850px;
+		height: 500px ;
+	}
+	.modal-content > img {
+		width: 100%;
+		height: 100%;
+	}
+	.modal-content .close {
+		opacity: unset !important;
+		
+	}
+	.close .close-btn {
+		border-radius: 100%;
+		position: absolute;
+		background: #E8CA67 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+		width: 62px;
+		height: 62px;
+		opacity: 1;
+		top: -32px;
+	right: -30px;
+	border: 0;
+	cursor: pointer;
+}
+.close-btn img {
+	width: 25px;
+	height: 25px;
+}
+/* .close 	img {
+		width: 100%;
+		height: 100%;
+	} */
+		/* --------------------------- Modal PopUP end ---------------------- */
